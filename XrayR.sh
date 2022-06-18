@@ -13,10 +13,12 @@ sysctl -p
 echo y | ufw reset
 echo y | ufw enable
 ufw allow ssh
-ufw allow 444/tcp
-ufw allow 444/udp
+ufw allow 443/tcp
+ufw allow 443/udp
 ufw allow 8388/tcp
 ufw allow 8388/udp
+ufw allow 12393/tcp
+ufw allow 12393/udp
 ufw reload
 
 # add swap (2GB default)
