@@ -1,5 +1,5 @@
 # init
-sudo apt update && sudo upgrade -y
+sudo apt update && sudo apt upgrade -y
 apt-get install git wget curl ufw vim htop -y
 mkdir scripts
 cd scripts
