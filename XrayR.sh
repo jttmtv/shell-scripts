@@ -13,6 +13,7 @@ sysctl -p
 echo y | ufw reset
 echo y | ufw enable
 ufw allow ssh
+ufw allow http
 ufw allow 443/tcp
 ufw allow 443/udp
 ufw allow 8388/tcp
